@@ -1,0 +1,39 @@
+#page {
+  font-family: Helvetica-Neue, sans-serif;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: gainsboro;
+  position: absolute;
+  text-align: center;
+}
+
+#board {
+  background: #42adf5;
+  width: 70vmin;
+  height: 70vmin;
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#game-over {
+  visibility: hidden;
+}
+
+.col {
+  float: left;
+}
+
+.circle {
+  background: gainsboro;
+  border-radius: 50%;
+  width: 7vmin;
+  height: 7vmin;
+  margin: 1vmin;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
